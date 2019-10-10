@@ -21,7 +21,7 @@ else:
         print(f"{B} es el mayor")
     else:
         if B==C:
-            print(f"{B} y {C} son los mayores")
+            print(f"{B} y {C} son los menores")
         else: 
             print(f"{C} es el mayor")
 
