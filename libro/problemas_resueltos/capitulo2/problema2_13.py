@@ -5,9 +5,21 @@ PROM = float(input("Ingresa Tu Promedio: "))
 if CARR=="economia":
     if SEM>=6 and PROM>=8.8:
         print(f"Matricula {MAT}, Carrera {CARR}, Aceptado")
-    elif CARR=="computacion":
-        if  SEM>6 and PROM>8.5:
+if CARR=="computacion":
+        if SEM>6 and PROM>8.5:
             print(f"Matricula {MAT}, Carrera {CARR}, Aceptado")
-        elif CARR=="contabildad":
-            if SEM>5 and PROM>8.5:
-                print(f"Matricula {MAT}, Carrera {CARR}, Aceptado")
+if CARR=="contabilidad" or "administracion":
+    if SEM>5 and PROM>8.5:
+        print(f"Matricula {MAT}, Carrera {CARR}, Aceptado")
+
+
+
+
+
+
+
+
+
+
+
+
