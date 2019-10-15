@@ -12,7 +12,8 @@ elif CATE==4:
 else:
     PHE=0
 if HE>30:
-    NSUE = SUE+30*PHE
+    NSUE=SUE+30*PHE
+    print(f"Su Sueldo Total Es De: ${NSUE}")
 else:
-    NSUE = SUE+HE*PHE
-    print(f"Su Sueldo Total Con Horas Extras Trabajadas Es De: ${NSUE}")
+    NSUE=SUE+HE*PHE
+    print(f"Su Sueldo Total Es De: ${NSUE}")
