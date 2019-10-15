@@ -11,5 +11,6 @@ elif TIPOENF==4:
     COSTOT=DIAS*32
 if EDAD>=14 and EDAD<=22:
     COSTOT=COSTOT*1.10
+    print(f"El Total A Pagar Es De: ${COSTOT}")
 else:
     print(f"El Total A Pagar Es De: ${COSTOT}")
